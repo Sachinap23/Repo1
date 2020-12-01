@@ -1,6 +1,5 @@
 package com.app.orangeHRM.testscripts;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import com.app.orangeHRM.generics.BaseTest;
