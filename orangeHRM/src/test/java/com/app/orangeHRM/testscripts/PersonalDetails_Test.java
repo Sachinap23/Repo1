@@ -21,8 +21,8 @@ public class PersonalDetails_Test extends BaseTest{
 		pd.goTo_MyInfo();
 		pd.clickEditBTN();
 		pd.clickGenderBTN();
-		pd.clickNationalityBTN1(locator, expectedvalue);
-		pd.clickDateOfBirthBTN1();
+		pd.clickNationalityBTN();
+		pd.clickDateOfBirthBTN1(datevalue);
 
  }
 }

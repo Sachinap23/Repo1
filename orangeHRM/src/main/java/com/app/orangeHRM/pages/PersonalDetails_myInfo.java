@@ -52,9 +52,9 @@ public class PersonalDetails_myInfo extends BasePage {
 	  
 	  }
 	 
-	public void clickDateOfBirthBTN1(String value) {
+	public void clickDateOfBirthBTN1(String datevalue) {
 		dateOfBirthBTN.clear();
-		dateOfBirthBTN.sendKeys(value);
+		dateOfBirthBTN.sendKeys(datevalue);
 		//selectdateOfBirthBTN.click();
 	
 		
