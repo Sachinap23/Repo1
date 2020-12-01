@@ -9,7 +9,7 @@ import com.app.orangeHRM.pages.PersonalDetails_myInfo;
 
 public class PersonalDetails_Test extends BaseTest{
 	
-	private By locator;
+	//private By locator;
 
 	@Test
 	public void testPersonalDetails() {
