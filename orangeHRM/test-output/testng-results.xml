@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ Test testPersonalDetails is fail ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34717" started-at="2020-11-28T18:38:55 IST" finished-at="2020-11-28T18:39:30 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34717" started-at="2020-11-28T18:38:55 IST" finished-at="2020-11-28T18:39:30 IST">
+      <class name="com.app.orangeHRM.testscripts.PersonalDetails_Test">
+        <test-method status="PASS" signature="setupreport()[pri:0, instance:com.app.orangeHRM.testscripts.PersonalDetails_Test@78e67e0a]" name="setupreport" is-config="true" duration-ms="355" started-at="2020-11-28T18:38:55 IST" finished-at="2020-11-28T18:38:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupreport -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.app.orangeHRM.testscripts.PersonalDetails_Test@78e67e0a]" name="openApp" is-config="true" duration-ms="13146" started-at="2020-11-28T18:38:55 IST" finished-at="2020-11-28T18:39:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="FAIL" signature="testPersonalDetails()[pri:0, instance:com.app.orangeHRM.testscripts.PersonalDetails_Test@78e67e0a]" name="testPersonalDetails" duration-ms="20797" started-at="2020-11-28T18:39:08 IST" finished-at="2020-11-28T18:39:29 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: Indian
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOSUR-HP', ip: '192.168.2.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_251'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Indian
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOSUR-HP', ip: '192.168.2.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+at com.app.orangeHRM.Utilities.Utility.dropDownSelectByValue(Utility.java:145)
+at com.app.orangeHRM.pages.PersonalDetails_myInfo.clickNationalityBTN1(PersonalDetails_myInfo.java:44)
+at com.app.orangeHRM.testscripts.PersonalDetails_Test.testPersonalDetails(PersonalDetails_Test.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonalDetails -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.app.orangeHRM.testscripts.PersonalDetails_Test@78e67e0a]" name="closeApp" is-config="true" duration-ms="685" started-at="2020-11-28T18:39:29 IST" finished-at="2020-11-28T18:39:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPersonalDetails status=FAILURE method=PersonalDetails_Test.testPersonalDetails()[pri:0, instance:com.app.orangeHRM.testscripts.PersonalDetails_Test@78e67e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Test testPersonalDetails is fail ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.app.orangeHRM.testscripts.PersonalDetails_Test@78e67e0a]" name="endReport" is-config="true" duration-ms="0" started-at="2020-11-28T18:39:30 IST" finished-at="2020-11-28T18:39:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.app.orangeHRM.testscripts.PersonalDetails_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
