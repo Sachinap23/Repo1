@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.app.orangeHRM.testscripts.PersonalDetails_Test">
+      <class name="com.app.orangeHRM.testscripts.AccessRecord_Test">
         <methods>
           <include name="endReport"/>
           <include name="closeApp"/>
+          <include name="testAccessRecords"/>
           <include name="setupreport"/>
           <include name="openApp"/>
-          <include name="testPersonalDetails"/>
         </methods>
-      </class> <!-- com.app.orangeHRM.testscripts.PersonalDetails_Test -->
+      </class> <!-- com.app.orangeHRM.testscripts.AccessRecord_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
